@@ -1,0 +1,13 @@
+application: sample-app
+version: 1
+runtime: python27
+threadsafe: true
+api_version: 1
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  
+- url: /_ah/spi/.*
+  script: helloworld.application
