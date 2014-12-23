@@ -20,3 +20,7 @@ class TaskApi(remote.Service):
     
     
 application=endpoints.api_server([TaskApi])
+
+#http://localhost:8080/_ah/api/explorer
+#http://localhost:8080/_ah/api/discovery/v1/apis/tasks/v1/rest
+#http://localhost:8000/instances
